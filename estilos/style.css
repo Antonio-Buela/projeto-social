@@ -1,7 +1,6 @@
-@charset "UTF-8"`
+@charset "UTF-8"
 
-*{
-    margin: 0px;
+*{   margin: 0px;
     padding: 0px;
   font-family: Arial, Helvetica, sans-serif;  
 }
@@ -44,12 +43,18 @@ iframe#tela{
     width: 269px;
     height: 471px;
 }
-section#redes-sociais{
-    text-align: right;
-}
-section#redes-sociais > a > img{
+
+ img{
     width: 50px;
     margin: 10px;
     border-radius: 50%;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 5px black;
+    text-align: right;
+    box-sizing: border-box;
+}
+img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.295);
+    transform: translate(-5px, -10px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+    transition: transform .3s, border 1s ;
 }
